@@ -31,7 +31,8 @@ NewCoin/ ├── main.cpp              → Entry point ├── block.{h,cpp}
 ## __**🛠️ Build Instructions**__
 
 ```bash
-g++ -std=c++11 main.cpp block.cpp blockchain.cpp transaction.cpp wallet.cpp featherhash.cpp -lssl -lcrypto -o newcoin
+g++ -std=c++11 -I "your_directory_address_of_include_libraires" -DCURL_STATICLIB -L "your_directory_address_of_include_libs" main.cpp block.cpp blockchain.cpp transaction.cpp wallet.cpp featherhash.cpp -o newcoin -lssl -lcrypto -lcrypt32 -lws2_32
+
 ./newcoin
 
 
