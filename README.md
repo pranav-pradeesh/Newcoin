@@ -55,7 +55,7 @@ g++ -std=c++11 -I "your_directory_address_of_include_libraires" -DCURL_STATICLIB
 📜 License
 
 This project is intended for educational use only.
-License: MIT (or define your own)
+License: MIT
 
 
 ---
